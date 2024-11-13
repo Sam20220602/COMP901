@@ -61,49 +61,49 @@ This dataset is based on performance comparison experiments of synchronous, asyn
 - '02' folder: Server performance data for testing adaptive packet transmission strategies
 - '03' folder: Server performance data with the application of the Dead Reckoning algorithm
 
-### '01' folder file list
-(Client Side) Async 10 client - LatencyData.csv
-(Client Side) Async 50 client - LatencyData.csv
-(Client Side) Async 100 client - LatencyData.csv
-(Client Side) Async 100 client (200ms) - LatencyData.csv
-(Client Side) IOCP 10 client - LatencyData.csv
-(Client Side) IOCP 50 client - LatencyData.csv
-(Client Side) IOCP 100 client - LatencyData.csv
-(Client Side) IOCP 100 client (200ms) - LatencyData.csv
-(Client Side) Sync 10 client - LatencyData.csv
-(Client Side) Sync 50 client - LatencyData.csv
-(Client Side) Sync 100 client - LatencyData.csv
-(Client Side) Sync 100 client (200ms) - LatencyData.csv
-(Server Side) Async 10 client performance_log.csv
-(Server Side) Async 50 client performance_log.csv
-(Server Side) Async 100 client performance_log.csv
-(Server Side) Async 100 client (200ms) performance_log.csv
-(Server Side) IOCP 10 client performance_log.csv
-(Server Side) IOCP 50 client performance_log.csv
-(Server Side) IOCP 100 client performance_log.csv
-(Server Side) IOCP 100 client (200ms) performance_log.csv
-(Server Side) Sync 10 client performance_log.csv
-(Server Side) Sync 50 client performance_log.csv
-(Server Side) Sync 100 client performance_log.csv
-(Server Side) Sync 100 client (200ms) performance_log.csv
+### '01' folder file list  
+(Client Side) Async 10 client - LatencyData.csv  
+(Client Side) Async 50 client - LatencyData.csv  
+(Client Side) Async 100 client - LatencyData.csv  
+(Client Side) Async 100 client (200ms) - LatencyData.csv  
+(Client Side) IOCP 10 client - LatencyData.csv  
+(Client Side) IOCP 50 client - LatencyData.csv  
+(Client Side) IOCP 100 client - LatencyData.csv  
+(Client Side) IOCP 100 client (200ms) - LatencyData.csv  
+(Client Side) Sync 10 client - LatencyData.csv  
+(Client Side) Sync 50 client - LatencyData.csv  
+(Client Side) Sync 100 client - LatencyData.csv  
+(Client Side) Sync 100 client (200ms) - LatencyData.csv  
+(Server Side) Async 10 client performance_log.csv  
+(Server Side) Async 50 client performance_log.csv  
+(Server Side) Async 100 client performance_log.csv  
+(Server Side) Async 100 client (200ms) performance_log.csv  
+(Server Side) IOCP 10 client performance_log.csv  
+(Server Side) IOCP 50 client performance_log.csv  
+(Server Side) IOCP 100 client performance_log.csv  
+(Server Side) IOCP 100 client (200ms) performance_log.csv  
+(Server Side) Sync 10 client performance_log.csv  
+(Server Side) Sync 50 client performance_log.csv  
+(Server Side) Sync 100 client performance_log.csv  
+(Server Side) Sync 100 client (200ms) performance_log.csv  
 
-### '02' folder file list
-(Server Side) adaptive 10 client battle mode no prior que - server_log.csv
-(Server Side) adaptive 10 client battle mode yes prior que - server_log.csv
-(Server Side) adaptive 10 client moving mode no prior que - server_log.csv
-(Server Side) adaptive 10 client moving mode yes prior que - server_log.csv
-(Server Side) fixed 10 client server_log.csv
+### '02' folder file list  
+(Server Side) adaptive 10 client battle mode no prior que - server_log.csv  
+(Server Side) adaptive 10 client battle mode yes prior que - server_log.csv  
+(Server Side) adaptive 10 client moving mode no prior que - server_log.csv  
+(Server Side) adaptive 10 client moving mode yes prior que - server_log.csv  
+(Server Side) fixed 10 client server_log.csv  
 
-### '03' folder file list
-(Server Side) dead reckoning mode off 10ms server_log.csv
-(Server Side) dead reckoning mode off 500ms server_log.csv
-(Server Side) dead reckoning mode on 10ms server_log.csv
-(Server Side) dead reckoning mode on 100ms server_log.csv
-(Server Side) dead reckoning mode on 200ms server_log.csv
-(Server Side) dead reckoning mode on 300ms server_log.csv
-(Server Side) dead reckoning mode on 400ms server_log.csv
-(Server Side) dead reckoning mode on 450ms server_log.csv
-(Server Side) dead reckoning mode on 500ms server_log.csv
+### '03' folder file list  
+(Server Side) dead reckoning mode off 10ms server_log.csv  
+(Server Side) dead reckoning mode off 500ms server_log.csv  
+(Server Side) dead reckoning mode on 10ms server_log.csv  
+(Server Side) dead reckoning mode on 100ms server_log.csv  
+(Server Side) dead reckoning mode on 200ms server_log.csv  
+(Server Side) dead reckoning mode on 300ms server_log.csv  
+(Server Side) dead reckoning mode on 400ms server_log.csv  
+(Server Side) dead reckoning mode on 450ms server_log.csv  
+(Server Side) dead reckoning mode on 500ms server_log.csv  
 
 ## File Descriptions
 - ..LatencyData.csv: Latency data collected on the client side. Each file is categorized by the number of clients (10, 50, 100) and network conditions (200ms).
