@@ -1,0 +1,85 @@
+# 빌드 결과물
+bin/
+obj/
+build/
+[Bb]uild/
+[Bb]in/
+[Oo]bj/
+
+# 프로젝트 관련 파일
+*.user
+*.rsuser
+*.suo
+*.vcxproj.user
+*.opendb
+*.vscode/
+
+# 패키지 관련
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+.vscode/
+
+# 디버그 및 로그 파일
+*.log
+*.tlog
+*.ide.log
+*.vs/
+.vscode/
+
+# 임시 파일
+*.tmp
+*.temp
+*.cache
+*.pid
+*.seed
+*.backup
+
+# Visual Studio 및 Mac 환경 관련 파일
+.vs/
+.DS_Store
+Thumbs.db
+*.sln.docstates
+
+# NuGet 관련 파일
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.nuspec
+
+# Resharper 관련 파일
+_ReSharper*
+*.DotSettings.user
+
+# Rider 관련 파일
+.idea/
+.idea_modules/
+*.ipr
+*.iws
+*.iml
+
+# 테스트 결과물
+TestResults/
+*.coverage
+*.coveragexml
+*.testresults
+
+# Publish 관련 파일
+*.PublishProfiles/
+
+# 환경 설정 파일 (OS에 따라 추가 가능)
+*.env
+.env.local
+.env.*.local
+
+# JetBrains Rider
+.idea/
+*.sublime-workspace
+
+# 파일 시스템에서 자동 생성되는 파일
+desktop.ini
+Thumbs.db
+
+# 기타
+.vscode/
